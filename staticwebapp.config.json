@@ -18,6 +18,9 @@
       "headers": {
         "n1": "123"
       }
+    },
+    {
+      "route": "/profile2"
     }
   ]
 }
