@@ -1,26 +1,5 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
-  },
-  "routes": [
-    {
-      "route": "/profile",
-      "methods": [
-        "post"
-      ],
-      "rewrite": "/item/123",
-      "redirect": "/new-url",
-      "statusCode": 300,
-      "allowedRoles": [
-        "admin",
-        "authn"
-      ],
-      "headers": {
-        "n1": "123"
-      }
-    },
-    {
-      "route": "/profile2"
-    }
-  ]
+  }
 }
